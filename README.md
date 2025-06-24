@@ -2,13 +2,19 @@
 
 An end-to-end machine learning pipeline for breast cancer diagnosis using the Wisconsin Diagnostic Breast Cancer dataset. This project features complete data preprocessing, feature selection, model comparison, hyperparameter tuning, and detailed performance evaluation through visuals.
 
-Achieved a final accuracy score of 97% and a final F1 score of 0.965.
+Achieved a final accuracy score of 97% and a final F1 score of 0.965 and deployed it as a web app using Flask.
 
 ---
 
 ## 📂 Project Structure
 
-- breast-cancer-prediction-updated.ipynb (Complete notebook with code, models, and evaluation)
+- 📂 model folder:
+    - pipeline.pkl (The trained ML pipeline file, saved with joblib for the Flask app)
+- 📂 templates folder
+    - index.html (The frontend form, written in HTML)
+- app.py (The main backend script, the brain of the web app)
+- requirements.txt (Dependecies to be installed)
+- Complete ML Workflow Notebook.ipynb (Complete notebook with code, models, and evaluation)
 - data.csv (Cleaned dataset used in the notebook, source is [Breast Cancer Wisconsin Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) from Kaggle)
 - Final Model Performance.png (Visual: Best model's scores and confusion matrix)
 - F1 Score Model Comparison.png (Visual: F1 score comparison across models)
@@ -61,6 +67,8 @@ Key insights and comparisons include:
 - XGBoost
 - pandas, numpy, matplotlib, seaborn
 - Jupyter Notebook
+- Flask
+- Joblib
 
 ---
 
@@ -78,7 +86,7 @@ Key insights and comparisons include:
 
 ## 🎯 Goal
 
-To build a reliable, interpretable, and deployable classification pipeline for breast cancer detection — ready for showcasing on **LinkedIn**, **GitHub**, and in a **Data Science portfolio**.
+To build a reliable, interpretable, and deployable classification pipeline for breast cancer detection and deploying the pipeline as a Web App.
 
 ## Author
 Muhammad Adam Umar
