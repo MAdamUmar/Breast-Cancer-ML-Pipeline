@@ -7,12 +7,11 @@ Achieved a final accuracy score of 97% and a final F1 score of 0.965.
 ---
 
 ## 📂 Project Structure
-📁 breast-cancer-ml-pipeline/
-├── breast-cancer-prediction-updated.ipynb # Complete notebook with code, models, and evaluation
-├── data.csv # Cleaned dataset used in the notebook
-├── Final Model Performance.png # Visual: Best model's confusion matrix
-├── F1 Score Model Comparison.png # Visual: F1 score comparison across models
-└── Breast_Cancer_Prediction_Presentation.pdf # Polished PDF presentation for portfolio
+📁 breast-cancer-ml-pipeline
+├── breast-cancer-prediction-updated.ipynb (Complete notebook with code, models, and evaluation)
+├── data.csv (Cleaned dataset used in the notebook, source is [Breast Cancer Wisconsin Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) from Kaggle)
+├── Final Model Performance.png (Visual: Best model's scores and confusion matrix)
+├── F1 Score Model Comparison.png (Visual: F1 score comparison across models)
 
 
 ---
