@@ -15,7 +15,7 @@ Achieved a final accuracy score of 97% and a final F1 score of 0.965 and deploye
 - app.py (The main backend script, the brain of the web app)
 - requirements.txt (Dependecies to be installed)
 - Complete ML Workflow Notebook.ipynb (Complete notebook with code, models, and evaluation)
-- data.csv (Cleaned dataset used in the notebook, source is [Breast Cancer Wisconsin Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) from Kaggle)
+- data.csv (Dataset used in the notebook, source is [Breast Cancer Wisconsin Dataset](https://www.kaggle.com/datasets/uciml/breast-cancer-wisconsin-data) )
 - Final Model Performance.png (Visual: Best model's scores and confusion matrix)
 - F1 Score Model Comparison.png (Visual: F1 score comparison across models)
 
